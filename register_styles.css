@@ -26,7 +26,7 @@ hr {
     margin-bottom: 25px;
 }
 
-.registerbtn {
+.registerbtn, .sendbtn {
     background-color: #04aa6d;
     color: white;
     padding: 16px 20px;
@@ -37,7 +37,7 @@ hr {
     opacity: 0.9;
 }
 
-.registerbtn:hover {
+.registerbtn:hover, .sendbtn:hover {
     opacity: 1;
 }
 
@@ -50,3 +50,5 @@ a {
     text-align: center;
 
 }
+
+/*reset password*/
