@@ -84,3 +84,99 @@ body { padding: 2em; }
 }
 
 /* CSS for register form*/
+
+/* Item trong thanh công cụ bên trái */
+.item-icon{
+  font-size:13px;
+  width: 100%;
+  height: 5vh;
+  font-weight: bold;
+  color:black;
+  text-decoration: none; 
+  border-radius: 5px;
+  padding: 5px;
+}
+.item-icon:hover{
+  text-decoration: none;
+  color:black;
+  background-color: rgb(180, 172, 172);
+}
+.item-icon:focus{
+  text-decoration: none;
+  color:black;
+  background-color: rgb(180, 172, 172);
+}
+/* Main */
+.main-index{
+  border:0;
+  margin:0;
+  padding:0;
+ 
+  background-color: rgb(248, 244, 244);
+}
+/* thanh nav*/
+.nav{
+  display:flex;
+  list-style-type: none;
+  padding:0;
+  margin-left:10vw;
+}
+.nav li a{
+  color: black;
+  font-size: 20px;
+  margin-top:10px;
+}
+.nav li{
+  flex-basis:15%;
+}
+/* home page logo*/
+.homelogo{
+  margin:15px 0px;
+  width: 15vw;
+}
+/* Ẩn viền*/
+.search-hideborder{
+  background: none;
+  border:none;
+}
+/* tăng độ dài khung search, chỉnh sửa viền, bo tròn */
+.search-text{
+  width: 80%;
+}
+.search-pos{
+  margin: 20px auto 0 auto;
+  border: lightgray 1px solid;
+  border-radius: 5px;
+}
+
+.button-pos{
+  margin-left:15%;
+}
+/* Thanh bên trái*/
+.taskbar{
+  display:flex;
+  flex-direction:column;
+  border-right:lightgray 2px solid;
+  margin:0;
+}
+.navbar{
+  margin:0; width: 100vw; padding:0 10%;border-bottom: lightgray 1px solid;
+}
+.filter{
+  background-color: rgb(218, 222, 223);
+  height: 100vh;
+  padding:20px;
+  
+}
+.filter-head{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: gray 1px solid;
+}
+.filter-body{
+
+}
+.btn-hideborder{
+
+}
